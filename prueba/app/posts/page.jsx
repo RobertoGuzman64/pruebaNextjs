@@ -3,7 +3,7 @@ import PostCard from '../../components/postcard'
 async function loadPosts() {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
     const data = await res.json()
-    await new Promise((resolve) => setTimeout(resolve,3000))
+    await new Promise((resolve) => setTimeout(resolve,1000))
     return data;
 }
 // (RSC) React Server Component

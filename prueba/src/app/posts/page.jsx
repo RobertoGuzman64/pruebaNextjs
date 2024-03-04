@@ -1,4 +1,4 @@
-import PostCard from "@/components/postcard"
+import PostCard from "@/src/components/postcard"
 import "./posts.css"
 
 async function loadPosts() {
